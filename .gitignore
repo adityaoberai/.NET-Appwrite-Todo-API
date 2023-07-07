@@ -6,6 +6,8 @@
 # Added files
 
 /AppwriteCrudApi/appsettings.Development.json
+.vs
+.vscode
 
 # User-specific files
 *.rsuser

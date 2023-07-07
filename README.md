@@ -8,11 +8,12 @@ Todo CRUD API built with Appwrite Cloud and .NET 7
 
 ### Appwrite Setup
 
-- Sign up for [Appwrite Cloud](https://cloud.appwrite.io)
+- Sign up for [Appwrite Cloud](https://cloud.appwrite.io/register)
+  ![Register for Appwrite Cloud](./Images/RegisterAppwriteCloud.png)
 - Create your first project
-  ![Create a project](https://github.com/adityaoberai/.NET-Appwrite-Todo-API/assets/31401437/0ecf6268-9df4-4ae5-b92b-156e24890963)
+  ![Create a project](./Images/CreateNewProject.png)
 - Create an API Key with the scopes `documents.read` and `documents.write`
-  ![API Key scopes](https://github.com/adityaoberai/.NET-Appwrite-Todo-API/assets/31401437/6f4caff6-930a-4cd9-91be-cccfc45c041f)
+  ![API Key scopes](./Images/APIKeyScopes.png)
 - Create a database, followed by a collection, and create the following:
   - Attributes
     | Attribute ID | Type    | Size | Default Value | Required | Array |
@@ -20,14 +21,14 @@ Todo CRUD API built with Appwrite Cloud and .NET 7
     | description  | string  | 255  |               | Yes      | No    |
     | isCompleted  | boolean |      |               | Yes      | No    |
 
-    ![Collection attributes](https://github.com/adityaoberai/.NET-Appwrite-Todo-API/assets/31401437/c31deb0f-bb36-4996-8d35-ae2c2cdf786c)
+    ![Collection attributes](./Images/DatabaseAttributes.png)
       
   - Index
     | Index Key | Index type  | Attribute | Order |
     |-----------|-------------|-----------|-------|
     | Id        | Key         | $id       | ASC   |
     
-    ![Collection indexes](https://github.com/adityaoberai/.NET-Appwrite-Todo-API/assets/31401437/a36538d8-d784-44ff-a4b3-6637649918e6)
+    ![Collection indexes](./Images/DatabaseIndexes.png)
 - Keep your Project Id, Database Id, Collection Id, and API Key saved for the project setup
 
 ### Project Setup
